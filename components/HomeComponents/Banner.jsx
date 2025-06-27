@@ -19,8 +19,8 @@ const Banner = () => {
                                             <Typewriter
                                                 options={{
                                                     strings:
-                                                        ['MERN Stack Developer',
-                                                            'NexJs Developer'],
+                                                        ['Competitive Programmer',
+                                                            'Backend Developer'],
                                                     autoStart: true,
                                                     loop: true,
                                                 }}
@@ -29,7 +29,7 @@ const Banner = () => {
                                         </span> {"</"}<span className="text-Green sm:text-base xl:text-lg font-bold">div</span>{">"} </span>
                                 </div>
                             </div>
-                            <Link to='intro' spy={true} smooth={true} duration={500} offset={-50} className="button">Explore</Link>
+                           <a href="https://leetcode.com/u/its_me_ami_12/" target="_blank" rel="noopener noreferrer" className="button">LeetCode</a>
                         </div>
                         <div className="w-48 h-52 relative hidden md:block">
                             <img className='absolute top-8 w-full h-full' src="images/emoji.png" alt="emoji" />
@@ -41,24 +41,24 @@ const Banner = () => {
                 <div className="grid grid-cols-2 gap-4 md:gap-0 md:flex items-center justify-between w-full px-4 xl:px-8 2xl:px-16">
 
                     <div className="flex items-center gap-x-1">
-                        <span className='text-base md:text-lg text-Green font-bold'>10+</span>
-                        <span className='text-xs text-Snow'>Completed Projects</span>
-                    </div>
-
-                    <div className="flex items-center gap-x-1">
-                        <span className='text-base md:text-lg text-Green font-bold'>8+</span>
-                        <span className='text-xs text-Snow'>Freelance Clients</span>
+                        <span className='text-base md:text-lg text-Green font-bold'>830+</span>
+                        <span className='text-xs text-Snow'>LeetCode Problems Solved</span>
                     </div>
 
                     <div className="flex items-center gap-x-1">
                         <span className='text-base md:text-lg text-Green font-bold'>5+</span>
-                        <span className='text-xs text-Snow'>Honors & Awards</span>
+                        <span className='text-xs text-Snow'>Full-Stack Projects Built</span>
                     </div>
 
                     <div className="flex items-center gap-x-1">
+                        <span className='text-base md:text-lg text-Green font-bold'>2+</span>
+                        <span className='text-xs text-Snow'>Technical Certifications</span>
+                    </div>
+
+                    {/* <div className="flex items-center gap-x-1">
                         <span className='text-base md:text-lg text-Green font-bold'>10+</span>
                         <span className='text-xs text-Snow'>Opensource Projects</span>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

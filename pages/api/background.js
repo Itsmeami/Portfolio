@@ -1,64 +1,63 @@
 const background = [
-    {
-        eduCards: [
-            {
-                id: 0,
-                title: 'UET Peshawar',
-                degree: 'BS, Computer System Engineering',
-                detail: "Bachelor's Degree in Computer System Engineering from UET Peshawar.",
-                year: '2018-2022'
-            },
-            {
-                id: 1,
-                title: 'Peshawar Model Degree College',
-                degree: 'HSSC, Pre Engineering',
-                detail: "Completed FSC part 1 and part 2 in Pre-Engineering from Peshawar Model Degree College.",
-                year: '2015-2017'
-            },
-            {
-                id: 2,
-                title: 'Falcon Academy',
-                degree: 'SSC, Science Subjects',
-                detail: "Completed SSC part 1 and part 2 in Science subjects from Falcon Academy Seni Gumbat Kohat",
-                year: '2013-2015'
-            },
-        ]
-    },
-    {
-        expCards: [
-            {
-                id: 1,
-                title: 'JMM Technologies',
-                role: 'Frontend Developer',
-                url: 'https://jmm.ltd/',
-                desc: 'As a frontend developer, I use React, Next & JavaScript to build user interfaces for web applications.',
-                year: '02/2023 - Present',
-                location: 'Peshawar, Pakistan'
-            },
-            {
-                id: 2,
-                title: 'HauzaTech',
-                role: 'Internee',
-                url: 'no website',
-                desc: 'As an Internee, I learned how to use React & JavaScript to build interactive websites.',
-                year: '02/2023 - Present',
-                location: 'Peshawar, Pakistan'
-            },
-            {
-                id: 3,
-                title: 'Encoder Bytes',
-                role: 'PHP Developer',
-                url: 'https://www.encoderbytes.com/',
-                desc: "I work there as a PHP developer, there I learned how to do CRUD'S operations in PHP, also I worked on Firebase",
-                year: '09/2020 - 02/2021',
-                location: 'Peshawar, Pakistan'
-            },
-
-        ]
-    }
-]
-
+  {
+    eduCards: [
+      {
+        id: 0,
+        title: "Sunderdeep Engineering College(Affliated AKTU)",
+        degree: "B.TECH, Bachelor of Technology",
+        detail:
+          "Bachelor's Degree in Computer Science and Engineering from Ghaziabad Uttar Pradesh.",
+        year: "2021-2025",
+      },
+      {
+        id: 1,
+        title: "Maa Tripur Sundari Public school",
+        degree: "Senior Secondary (12th)",
+        detail: "Completed 12th from Mirzapur Uttar Pradesh.",
+        year: "2020-2021",
+      },
+      {
+        id: 2,
+        title: "Maa Tripur sundari Public School",
+        degree: "SSC, Secondary School Certificate(High School)",
+        detail: "Completed SSC  Science subjects from Mirzapur Uttar Pradesh",
+        year: "2018-2019",
+      },
+    ],
+  },
+  {
+    expCards: [
+      {
+        id: 1,
+        title: "Bitchief Technology Servied Private Limited",
+        role: "Software Developer",
+        url: "https://www.bitchief.com/",
+        desc: "As a fullstack developer, I use React, Node.js & Express to build user interfaces for web applications.",
+        year: "03/2025 - Present",
+        location: "India, Gurugram",
+      },
+      {
+        id: 2,
+        title: "Mobiloitte",
+        role: "Software Developer Intern",
+        url: "https://www.mobiloitte.com/",
+        desc: "As an Internee, I learned how to use React Native & JavaScript to build interactive Apps.",
+        year: "01/2025 - 03/2025",
+        location: "Ohakla Phase 1, Delhi",
+      },
+      {
+        id: 3,
+        title: "MangoOrange",
+        role: "Software Developer Intern",
+        url: "https://mangosorange.co.in/",
+        desc: "I work there as a Fullstack Developer, there I learned how to do CRUD'S operations in Node.js, also I worked on Frontend",
+        year: "07/2024 - 10/2024",
+        location: "sector 62, Nodia",
+      },
+    ],
+  },
+];
 
 export default function handler(req, res) {
-    res.status(200).json(background)
+  res.status(200).json(background);
 }

@@ -1,33 +1,37 @@
 const review = [
-    {
-        id: 0,
-        clientName: 'Mustafash',
-        clientLocation: 'Egypt',
-        clientSource: 'Fiverr',
-        clientReview: 'It is always nice to work with him. The work is finished quickly and he does more than is asked of him. It is also clear that he has a lot of knowledge of the work he does. I look forward to our next collaboration.'
-    },
-    {
-        id: 2,
-        clientName: 'Melissabrown255',
-        clientLocation: 'United States',
-        clientSource: 'Fiverr',
-        clientReview: 'He is very good with communication and experienced website developer, great experience to work with him. '
-    },
-    {
-        id: 3,
-        clientName: 'Jake Corry',
-        clientLocation: 'Germany',
-        clientSource: 'Fiverr',
-        clientReview: "Osama is extremely knowledgeable and helpful. He knows in and out of web app development . His understanding of different technologies and frameworks in the space is also very impressive. I hope I get the chance to work with him again"
-    },
-    {
-        id: 4,
-        clientName: 'Blaise Labriola',
-        clientLocation: 'France',
-        clientSource: 'Fiverr',
-        clientReview: 'I have worked with Osama and he is very professional and excellent software  developer. I admire his speed of development and quality of work when given an assignment.'
-    },
-]
+  {
+    id: 0,
+    clientName: "Java",
+    clientLocation: "Advanced",
+    clientSource: "Leetcode",
+    clientReview:
+      "I have solved over 1000 problems in Java, which has given me a strong grasp of core concepts like OOP, data structures, and algorithms. This hands-on experience has sharpened my problem-solving skills and deepened my understanding of Java as a reliable, versatile programming language.",
+  },
+  {
+    id: 2,
+    clientName: "Node.js",
+    clientLocation: "Advanced",
+    clientSource: "Bitchief",
+    clientReview:
+      "I’m currently working as a Backend Developer at Bitchief Technology Services, where I contribute to the design, development, and maintenance of scalable backend systems using Node.js, Express, and PostgreSQL/MongoDB. During my time here, I’ve worked on two major projects ",
+  },
+  {
+    id: 3,
+    clientName: "React Native",
+    clientLocation: "Good",
+    clientSource: "Mobiloitte",
+    clientReview:
+      "Previously, I worked at Mobiloitte Technologies as a React Native Developer, where I was involved in building and maintaining cross-platform mobile applications. I focused on implementing intuitive UI components, integrating REST APIs, and optimizing app performance for both Android and iOS platforms.",
+  },
+  {
+    id: 4,
+    clientName: "Next.js",
+    clientLocation: "MangosOrange",
+    clientSource: "Good",
+    clientReview:
+      "At Mango Orange, I worked as a Frontend Developer using Next.js. I was responsible for building fast and SEO-friendly web pages, integrating APIs, and improving the overall user experience. I also worked on making the website responsive and performance-optimized",
+  },
+];
 export default function handler(req, res) {
     res.status(200).json(review)
 }
